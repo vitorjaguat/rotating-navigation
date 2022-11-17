@@ -8,7 +8,10 @@ const container = document.querySelector('.container');
 const contents = document.querySelectorAll('.content');
 
 //Toggle nav
-open.addEventListener('click', () => container.classList.add('show-nav'));
+open.addEventListener('click', () => {
+  container.classList.add('show-nav');
+});
+
 close.addEventListener('click', () => container.classList.remove('show-nav'));
 
 //Pages
